@@ -31,11 +31,11 @@ youtube: 'UC7QVieoTCNwwW84G0bddXpA'
 # tumblr: 'mytumblr'
 weibo: '100808b68aba47f332d118ad655dcfa1029afc'
 # vk: 'myvk'
-# blog_url: 'myblog.blog.com'
+blog_url: 'blog.chenyifaer.com'
 # email: 'hello@example.com'
 # messenger: 'myfbchat'
 
-social-links-order: [instagram, youtube, weibo]
+social-links-order: [instagram, youtube, weibo, blog_url]
 
 # Advanced settings
 plugins:
@@ -150,9 +150,9 @@ social-links:
   # - name: quora
   #   url-pattern: www.quora.com/profile/__USERNAME__
 
-  # - name: blog_url
-  #   url-pattern: '__USERNAME__'
-  #   icon-class: fas fa-2x fa-blog
+  - name: blog_url
+    url-pattern: '__USERNAME__'
+    icon-class: fas fa-2x fa-blog
 
   # - name: email
   #   url-scheme: 'mailto:'

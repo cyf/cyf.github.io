@@ -19,6 +19,7 @@ taobao: chenyifaer
 instagram: 'yifaer_chen'
 #pinterest: 'mypinterest'
 youtube: 'UC7QVieoTCNwwW84G0bddXpA'
+spotify: '10xtjTRMlKZ7aFx6VBQlSj'
 # github-user: 'mygithub'
 #gitlab-user: ''
 #codepen: ''
@@ -36,7 +37,7 @@ blog_url: 'blog.chenyifaer.com'
 # email: 'hello@example.com'
 # messenger: 'myfbchat'
 
-social-links-order: [taobao, instagram, youtube, weibo, blog_url]
+social-links-order: [taobao, instagram, youtube, spotify, weibo, blog_url]
 
 # Advanced settings
 plugins:
@@ -120,6 +121,9 @@ social-links:
 
   - name: youtube
     url-pattern: www.youtube.com/channel/__USERNAME__
+    
+  - name: spotify
+    url-pattern: open.spotify.com/artist/__USERNAME__
 
   # - name: vimeo
   #   url-pattern: vimeo.com/__USERNAME__

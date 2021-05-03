@@ -11,6 +11,7 @@ background: 'background.jpg'
 favicon: 'favicon.ico'
 
 # Online profiles
+taobao: chenyifaer
 #dribbble: 'mydribbble'
 # facebook: 'myfacebook'
 # twitter: 'mytwitter'
@@ -35,7 +36,7 @@ blog_url: 'blog.chenyifaer.com'
 # email: 'hello@example.com'
 # messenger: 'myfbchat'
 
-social-links-order: [instagram, youtube, weibo, blog_url]
+social-links-order: [taobao, instagram, youtube, weibo, blog_url]
 
 # Advanced settings
 plugins:
@@ -61,6 +62,10 @@ plugins:
 #     - defaults to `fab` style and uses value of `name` attribute (e.g. fab fa-2x fa-twitter)
 #     - **optional**
 social-links:
+  - name: taobao
+    url-pattern: __USERNAME__.taobao.com
+    icon-class: fa fa-amazon
+  
   # - name: facebook
   #   url-pattern: facebook.com/__USERNAME__
   #   icon-class: fab fa-2x fa-facebook-f

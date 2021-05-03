@@ -64,7 +64,7 @@ plugins:
 social-links:
   - name: taobao
     url-pattern: __USERNAME__.taobao.com
-    icon-class: fa fa-amazon
+    icon-class: fab fa fa-amazon
   
   # - name: facebook
   #   url-pattern: facebook.com/__USERNAME__
